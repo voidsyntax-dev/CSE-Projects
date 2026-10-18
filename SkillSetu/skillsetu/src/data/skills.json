@@ -1,0 +1,2277 @@
+[
+  {
+    "id": "thermodynamics",
+    "name": "Thermodynamics",
+    "description": "Study of energy, heat, work, entropy, and the spontaneity of processes.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "first_law",
+        "name": "First Law",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced First Law",
+            "url": "https://ocw.mit.edu/search/?q=First%20Law",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding First Law",
+            "url": "https://youtube.com/results?search_query=LearnChemE+First%20Law",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in First Law",
+            "url": "https://www.sciencedirect.com/search?qs=First%20Law",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "second_law",
+        "name": "Second Law",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Second Law",
+            "url": "https://ocw.mit.edu/search/?q=Second%20Law",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Second Law",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Second%20Law",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Second Law",
+            "url": "https://www.sciencedirect.com/search?qs=Second%20Law",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "entropy",
+        "name": "Entropy",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Entropy",
+            "url": "https://ocw.mit.edu/search/?q=Entropy",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Entropy",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Entropy",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Entropy",
+            "url": "https://www.sciencedirect.com/search?qs=Entropy",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "phase_equilibrium",
+        "name": "Phase Equilibrium",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Phase Equilibrium",
+            "url": "https://ocw.mit.edu/search/?q=Phase%20Equilibrium",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Phase Equilibrium",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Phase%20Equilibrium",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Phase Equilibrium",
+            "url": "https://www.sciencedirect.com/search?qs=Phase%20Equilibrium",
+            "duration": "30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fluid_mechanics",
+    "name": "Fluid Mechanics",
+    "description": "Study of fluids at rest and in motion, crucial for pipeline sizing and mixing.",
+    "dependsOn": [
+      "thermodynamics"
+    ],
+    "subskills": [
+      {
+        "id": "reynolds_number",
+        "name": "Reynolds Number",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Reynolds Number",
+            "url": "https://ocw.mit.edu/search/?q=Reynolds%20Number",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Reynolds Number",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Reynolds%20Number",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Reynolds Number",
+            "url": "https://www.sciencedirect.com/search?qs=Reynolds%20Number",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "bernoulli_equation",
+        "name": "Bernoulli Equation",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Bernoulli Equation",
+            "url": "https://ocw.mit.edu/search/?q=Bernoulli%20Equation",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Bernoulli Equation",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Bernoulli%20Equation",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Bernoulli Equation",
+            "url": "https://www.sciencedirect.com/search?qs=Bernoulli%20Equation",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "laminar_flow",
+        "name": "Laminar Flow",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Laminar Flow",
+            "url": "https://ocw.mit.edu/search/?q=Laminar%20Flow",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Laminar Flow",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Laminar%20Flow",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Laminar Flow",
+            "url": "https://www.sciencedirect.com/search?qs=Laminar%20Flow",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "turbulent_flow",
+        "name": "Turbulent Flow",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Turbulent Flow",
+            "url": "https://ocw.mit.edu/search/?q=Turbulent%20Flow",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Turbulent Flow",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Turbulent%20Flow",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Turbulent Flow",
+            "url": "https://www.sciencedirect.com/search?qs=Turbulent%20Flow",
+            "duration": "30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "heat_transfer",
+    "name": "Heat Transfer",
+    "description": "Principles of conduction, convection, and radiation for heat exchanger design.",
+    "dependsOn": [
+      "thermodynamics",
+      "fluid_mechanics"
+    ],
+    "subskills": [
+      {
+        "id": "conduction",
+        "name": "Conduction",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Conduction",
+            "url": "https://ocw.mit.edu/search/?q=Conduction",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Conduction",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Conduction",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Conduction",
+            "url": "https://www.sciencedirect.com/search?qs=Conduction",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "convection",
+        "name": "Convection",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Convection",
+            "url": "https://ocw.mit.edu/search/?q=Convection",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Convection",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Convection",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Convection",
+            "url": "https://www.sciencedirect.com/search?qs=Convection",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "radiation",
+        "name": "Radiation",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Radiation",
+            "url": "https://ocw.mit.edu/search/?q=Radiation",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Radiation",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Radiation",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Radiation",
+            "url": "https://www.sciencedirect.com/search?qs=Radiation",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "heat_exchangers",
+        "name": "Heat Exchangers",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Heat Exchangers",
+            "url": "https://ocw.mit.edu/search/?q=Heat%20Exchangers",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Heat Exchangers",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Heat%20Exchangers",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Heat Exchangers",
+            "url": "https://www.sciencedirect.com/search?qs=Heat%20Exchangers",
+            "duration": "30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mass_transfer",
+    "name": "Mass Transfer",
+    "description": "Focuses on diffusion, absorption, extraction, and separating mixtures.",
+    "dependsOn": [
+      "heat_transfer"
+    ],
+    "subskills": [
+      {
+        "id": "diffusion",
+        "name": "Diffusion",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Diffusion",
+            "url": "https://ocw.mit.edu/search/?q=Diffusion",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Diffusion",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Diffusion",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Diffusion",
+            "url": "https://www.sciencedirect.com/search?qs=Diffusion",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "fick_s_law",
+        "name": "Fick's Law",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Fick's Law",
+            "url": "https://ocw.mit.edu/search/?q=Fick's%20Law",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Fick's Law",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Fick's%20Law",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Fick's Law",
+            "url": "https://www.sciencedirect.com/search?qs=Fick's%20Law",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "gas_absorption",
+        "name": "Gas Absorption",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Gas Absorption",
+            "url": "https://ocw.mit.edu/search/?q=Gas%20Absorption",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Gas Absorption",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Gas%20Absorption",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Gas Absorption",
+            "url": "https://www.sciencedirect.com/search?qs=Gas%20Absorption",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "liquid_extraction",
+        "name": "Liquid Extraction",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Liquid Extraction",
+            "url": "https://ocw.mit.edu/search/?q=Liquid%20Extraction",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Liquid Extraction",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Liquid%20Extraction",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Liquid Extraction",
+            "url": "https://www.sciencedirect.com/search?qs=Liquid%20Extraction",
+            "duration": "30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reaction_engineering",
+    "name": "Reaction Engineering",
+    "description": "Kinetics and reactor design for chemical and biological transformations.",
+    "dependsOn": [
+      "mass_transfer"
+    ],
+    "subskills": [
+      {
+        "id": "rate_laws",
+        "name": "Rate Laws",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Rate Laws",
+            "url": "https://ocw.mit.edu/search/?q=Rate%20Laws",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Rate Laws",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Rate%20Laws",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Rate Laws",
+            "url": "https://www.sciencedirect.com/search?qs=Rate%20Laws",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "arrhenius_equation",
+        "name": "Arrhenius Equation",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Arrhenius Equation",
+            "url": "https://ocw.mit.edu/search/?q=Arrhenius%20Equation",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Arrhenius Equation",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Arrhenius%20Equation",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Arrhenius Equation",
+            "url": "https://www.sciencedirect.com/search?qs=Arrhenius%20Equation",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "catalysis",
+        "name": "Catalysis",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Catalysis",
+            "url": "https://ocw.mit.edu/search/?q=Catalysis",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Catalysis",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Catalysis",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Catalysis",
+            "url": "https://www.sciencedirect.com/search?qs=Catalysis",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "reactor_design",
+        "name": "Reactor Design",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Reactor Design",
+            "url": "https://ocw.mit.edu/search/?q=Reactor%20Design",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Reactor Design",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Reactor%20Design",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Reactor Design",
+            "url": "https://www.sciencedirect.com/search?qs=Reactor%20Design",
+            "duration": "30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "process_simulation",
+    "name": "Process Simulation",
+    "description": "Flowsheeting and thermodynamic modeling to predict plant performance.",
+    "dependsOn": [
+      "reaction_engineering"
+    ],
+    "subskills": [
+      {
+        "id": "mass_balances",
+        "name": "Mass Balances",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Mass Balances",
+            "url": "https://ocw.mit.edu/search/?q=Mass%20Balances",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Mass Balances",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Mass%20Balances",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Mass Balances",
+            "url": "https://www.sciencedirect.com/search?qs=Mass%20Balances",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "energy_balances",
+        "name": "Energy Balances",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Energy Balances",
+            "url": "https://ocw.mit.edu/search/?q=Energy%20Balances",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Energy Balances",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Energy%20Balances",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Energy Balances",
+            "url": "https://www.sciencedirect.com/search?qs=Energy%20Balances",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "flowsheeting",
+        "name": "Flowsheeting",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Flowsheeting",
+            "url": "https://ocw.mit.edu/search/?q=Flowsheeting",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Flowsheeting",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Flowsheeting",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Flowsheeting",
+            "url": "https://www.sciencedirect.com/search?qs=Flowsheeting",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "thermodynamic_models",
+        "name": "Thermodynamic Models",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Thermodynamic Models",
+            "url": "https://ocw.mit.edu/search/?q=Thermodynamic%20Models",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Thermodynamic Models",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Thermodynamic%20Models",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Thermodynamic Models",
+            "url": "https://www.sciencedirect.com/search?qs=Thermodynamic%20Models",
+            "duration": "30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bioreactor_design",
+    "name": "Bioreactor Design",
+    "description": "Sizing and operating vessels containing microorganisms or enzymes.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "batch_reactors",
+        "name": "Batch Reactors",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Batch Reactors",
+            "url": "https://ocw.mit.edu/search/?q=Batch%20Reactors",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Batch Reactors",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Batch%20Reactors",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Batch Reactors",
+            "url": "https://www.sciencedirect.com/search?qs=Batch%20Reactors",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "fed_batch_reactors",
+        "name": "Fed-batch Reactors",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Fed-batch Reactors",
+            "url": "https://ocw.mit.edu/search/?q=Fed-batch%20Reactors",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Fed-batch Reactors",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Fed-batch%20Reactors",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Fed-batch Reactors",
+            "url": "https://www.sciencedirect.com/search?qs=Fed-batch%20Reactors",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "continuous_reactors",
+        "name": "Continuous Reactors",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Continuous Reactors",
+            "url": "https://ocw.mit.edu/search/?q=Continuous%20Reactors",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Continuous Reactors",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Continuous%20Reactors",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Continuous Reactors",
+            "url": "https://www.sciencedirect.com/search?qs=Continuous%20Reactors",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "oxygen_transfer",
+        "name": "Oxygen Transfer",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Oxygen Transfer",
+            "url": "https://ocw.mit.edu/search/?q=Oxygen%20Transfer",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Oxygen Transfer",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Oxygen%20Transfer",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Oxygen Transfer",
+            "url": "https://www.sciencedirect.com/search?qs=Oxygen%20Transfer",
+            "duration": "30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "enzyme_kinetics",
+    "name": "Enzyme Kinetics",
+    "description": "Study of reaction rates catalyzed by enzymes.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "michaelis_menten",
+        "name": "Michaelis-Menten",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Michaelis-Menten",
+            "url": "https://ocw.mit.edu/search/?q=Michaelis-Menten",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Michaelis-Menten",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Michaelis-Menten",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Michaelis-Menten",
+            "url": "https://www.sciencedirect.com/search?qs=Michaelis-Menten",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "lineweaver_burk",
+        "name": "Lineweaver-Burk",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Lineweaver-Burk",
+            "url": "https://ocw.mit.edu/search/?q=Lineweaver-Burk",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Lineweaver-Burk",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Lineweaver-Burk",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Lineweaver-Burk",
+            "url": "https://www.sciencedirect.com/search?qs=Lineweaver-Burk",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "enzyme_inhibition",
+        "name": "Enzyme Inhibition",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Enzyme Inhibition",
+            "url": "https://ocw.mit.edu/search/?q=Enzyme%20Inhibition",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Enzyme Inhibition",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Enzyme%20Inhibition",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Enzyme Inhibition",
+            "url": "https://www.sciencedirect.com/search?qs=Enzyme%20Inhibition",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "allosteric_regulation",
+        "name": "Allosteric Regulation",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Allosteric Regulation",
+            "url": "https://ocw.mit.edu/search/?q=Allosteric%20Regulation",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Allosteric Regulation",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Allosteric%20Regulation",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Allosteric Regulation",
+            "url": "https://www.sciencedirect.com/search?qs=Allosteric%20Regulation",
+            "duration": "30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "metabolic_engineering",
+    "name": "Metabolic Engineering",
+    "description": "Optimization of cellular processes to increase production of substances.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "metabolic_pathways",
+        "name": "Metabolic Pathways",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Metabolic Pathways",
+            "url": "https://www.coursera.org/search?query=Metabolic%20Pathways",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Metabolic Pathways in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Metabolic%20Pathways",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Metabolic Pathways",
+            "url": "https://medium.com/search?q=Metabolic%20Pathways",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "flux_balance_analysis",
+        "name": "Flux Balance Analysis",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Flux Balance Analysis",
+            "url": "https://www.coursera.org/search?query=Flux%20Balance%20Analysis",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Flux Balance Analysis in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Flux%20Balance%20Analysis",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Flux Balance Analysis",
+            "url": "https://medium.com/search?q=Flux%20Balance%20Analysis",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "gene_knockouts",
+        "name": "Gene Knockouts",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Gene Knockouts",
+            "url": "https://www.coursera.org/search?query=Gene%20Knockouts",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Gene Knockouts in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Gene%20Knockouts",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Gene Knockouts",
+            "url": "https://medium.com/search?q=Gene%20Knockouts",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "synthetic_biology",
+        "name": "Synthetic Biology",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Synthetic Biology",
+            "url": "https://www.coursera.org/search?query=Synthetic%20Biology",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Synthetic Biology in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Synthetic%20Biology",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Synthetic Biology",
+            "url": "https://medium.com/search?q=Synthetic%20Biology",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bioprocess_control",
+    "name": "Bioprocess Control",
+    "description": "Maintaining strict biological conditions using sensors and loops.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "pid_control",
+        "name": "PID Control",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced PID Control",
+            "url": "https://ocw.mit.edu/search/?q=PID%20Control",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding PID Control",
+            "url": "https://youtube.com/results?search_query=LearnChemE+PID%20Control",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in PID Control",
+            "url": "https://www.sciencedirect.com/search?qs=PID%20Control",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "biosensors",
+        "name": "Biosensors",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Biosensors",
+            "url": "https://ocw.mit.edu/search/?q=Biosensors",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Biosensors",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Biosensors",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Biosensors",
+            "url": "https://www.sciencedirect.com/search?qs=Biosensors",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "feedback_loops",
+        "name": "Feedback Loops",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Feedback Loops",
+            "url": "https://ocw.mit.edu/search/?q=Feedback%20Loops",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Feedback Loops",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Feedback%20Loops",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Feedback Loops",
+            "url": "https://www.sciencedirect.com/search?qs=Feedback%20Loops",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "cascade_control",
+        "name": "Cascade Control",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Cascade Control",
+            "url": "https://ocw.mit.edu/search/?q=Cascade%20Control",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Cascade Control",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Cascade%20Control",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Cascade Control",
+            "url": "https://www.sciencedirect.com/search?qs=Cascade%20Control",
+            "duration": "30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "python_for_engineers",
+    "name": "Python for Engineers",
+    "description": "Fundamentals of programming for data analysis and numerical modeling.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "data_types",
+        "name": "Data Types",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Data Types",
+            "url": "https://ocw.mit.edu/search/?q=Data%20Types",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Data Types",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Data%20Types",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Data Types",
+            "url": "https://www.sciencedirect.com/search?qs=Data%20Types",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "loops",
+        "name": "Loops",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Loops",
+            "url": "https://ocw.mit.edu/search/?q=Loops",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Loops",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Loops",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Loops",
+            "url": "https://www.sciencedirect.com/search?qs=Loops",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "pandas",
+        "name": "Pandas",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Pandas",
+            "url": "https://ocw.mit.edu/search/?q=Pandas",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Pandas",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Pandas",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Pandas",
+            "url": "https://www.sciencedirect.com/search?qs=Pandas",
+            "duration": "30 mins"
+          }
+        ]
+      },
+      {
+        "id": "matplotlib",
+        "name": "Matplotlib",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MIT OCW: Advanced Matplotlib",
+            "url": "https://ocw.mit.edu/search/?q=Matplotlib",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "LearnChemE: Understanding Matplotlib",
+            "url": "https://youtube.com/results?search_query=LearnChemE+Matplotlib",
+            "duration": "1 hour"
+          },
+          {
+            "type": "article",
+            "title": "ScienceDirect: Recent advances in Matplotlib",
+            "url": "https://www.sciencedirect.com/search?qs=Matplotlib",
+            "duration": "30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bioinformatics",
+    "name": "Bioinformatics",
+    "description": "Computational methods for analyzing biological data such as genetic sequences.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "sequence_alignment",
+        "name": "Sequence Alignment",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Sequence Alignment",
+            "url": "https://www.coursera.org/search?query=Sequence%20Alignment",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Sequence Alignment in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Sequence%20Alignment",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Sequence Alignment",
+            "url": "https://medium.com/search?q=Sequence%20Alignment",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "genomics",
+        "name": "Genomics",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Genomics",
+            "url": "https://www.coursera.org/search?query=Genomics",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Genomics in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Genomics",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Genomics",
+            "url": "https://medium.com/search?q=Genomics",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "protein_structure",
+        "name": "Protein Structure",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Protein Structure",
+            "url": "https://www.coursera.org/search?query=Protein%20Structure",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Protein Structure in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Protein%20Structure",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Protein Structure",
+            "url": "https://medium.com/search?q=Protein%20Structure",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "phylogenetics",
+        "name": "Phylogenetics",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Phylogenetics",
+            "url": "https://www.coursera.org/search?query=Phylogenetics",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Phylogenetics in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Phylogenetics",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Phylogenetics",
+            "url": "https://medium.com/search?q=Phylogenetics",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "programming_fundamentals",
+    "name": "Programming Fundamentals",
+    "description": "Core concepts of coding, logic, and problem-solving.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "variables_types",
+        "name": "Variables & Types",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Variables & Types",
+            "url": "https://www.coursera.org/search?query=Variables%20%26%20Types",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Variables & Types in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Variables%20%26%20Types",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Variables & Types",
+            "url": "https://medium.com/search?q=Variables%20%26%20Types",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "control_flow",
+        "name": "Control Flow",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Control Flow",
+            "url": "https://www.coursera.org/search?query=Control%20Flow",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Control Flow in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Control%20Flow",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Control Flow",
+            "url": "https://medium.com/search?q=Control%20Flow",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "functions",
+        "name": "Functions",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Functions",
+            "url": "https://www.coursera.org/search?query=Functions",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Functions in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Functions",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Functions",
+            "url": "https://medium.com/search?q=Functions",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "web_development",
+    "name": "Web Development",
+    "description": "Building modern websites using HTML, CSS, and Javascript.",
+    "dependsOn": [
+      "programming_fundamentals"
+    ],
+    "subskills": [
+      {
+        "id": "frontend_basics",
+        "name": "Frontend Basics (HTML/CSS)",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Frontend Basics (HTML/CSS)",
+            "url": "https://www.coursera.org/search?query=Frontend%20Basics%20(HTML%2FCSS)",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Frontend Basics (HTML/CSS) in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Frontend%20Basics%20(HTML%2FCSS)",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Frontend Basics (HTML/CSS)",
+            "url": "https://medium.com/search?q=Frontend%20Basics%20(HTML%2FCSS)",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "react_fundamentals",
+        "name": "React Fundamentals",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to React Fundamentals",
+            "url": "https://www.coursera.org/search?query=React%20Fundamentals",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding React Fundamentals in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=React%20Fundamentals",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for React Fundamentals",
+            "url": "https://medium.com/search?q=React%20Fundamentals",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "api_integration",
+        "name": "API Integration",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to API Integration",
+            "url": "https://www.coursera.org/search?query=API%20Integration",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding API Integration in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=API%20Integration",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for API Integration",
+            "url": "https://medium.com/search?q=API%20Integration",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "databases",
+    "name": "Databases",
+    "description": "Storage and retrieval of data using SQL and NoSQL systems.",
+    "dependsOn": [
+      "programming_fundamentals"
+    ],
+    "subskills": [
+      {
+        "id": "sql_queries",
+        "name": "SQL Queries",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to SQL Queries",
+            "url": "https://www.coursera.org/search?query=SQL%20Queries",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding SQL Queries in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=SQL%20Queries",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for SQL Queries",
+            "url": "https://medium.com/search?q=SQL%20Queries",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "schema_design",
+        "name": "Schema Design",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Schema Design",
+            "url": "https://www.coursera.org/search?query=Schema%20Design",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Schema Design in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Schema%20Design",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Schema Design",
+            "url": "https://medium.com/search?q=Schema%20Design",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "software_architecture",
+    "name": "Software Architecture",
+    "description": "Designing high-level structures for software systems.",
+    "dependsOn": [
+      "web_development",
+      "databases"
+    ],
+    "subskills": [
+      {
+        "id": "microservices",
+        "name": "Microservices",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Microservices",
+            "url": "https://www.coursera.org/search?query=Microservices",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Microservices in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Microservices",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Microservices",
+            "url": "https://medium.com/search?q=Microservices",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "system_design",
+        "name": "System Design",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to System Design",
+            "url": "https://www.coursera.org/search?query=System%20Design",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding System Design in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=System%20Design",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for System Design",
+            "url": "https://medium.com/search?q=System%20Design",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data_visualization",
+    "name": "Data Visualization",
+    "description": "Creating meaningful charts and insights from raw data.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "tableau_basics",
+        "name": "Tableau Basics",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Tableau Basics",
+            "url": "https://www.coursera.org/search?query=Tableau%20Basics",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Tableau Basics in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Tableau%20Basics",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Tableau Basics",
+            "url": "https://medium.com/search?q=Tableau%20Basics",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "dashboard_design",
+        "name": "Dashboard Design",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Dashboard Design",
+            "url": "https://www.coursera.org/search?query=Dashboard%20Design",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Dashboard Design in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Dashboard%20Design",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Dashboard Design",
+            "url": "https://medium.com/search?q=Dashboard%20Design",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "statistics",
+    "name": "Statistics",
+    "description": "Mathematical framework for data analysis and hypothesis testing.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "probability",
+        "name": "Probability",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Probability",
+            "url": "https://www.coursera.org/search?query=Probability",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Probability in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Probability",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Probability",
+            "url": "https://medium.com/search?q=Probability",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "inference",
+        "name": "Statistical Inference",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Statistical Inference",
+            "url": "https://www.coursera.org/search?query=Statistical%20Inference",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Statistical Inference in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Statistical%20Inference",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Statistical Inference",
+            "url": "https://medium.com/search?q=Statistical%20Inference",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sql_mastery",
+    "name": "SQL Mastery",
+    "description": "Advanced data manipulation and querying.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "joins_unions",
+        "name": "Joins & Unions",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Joins & Unions",
+            "url": "https://www.coursera.org/search?query=Joins%20%26%20Unions",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Joins & Unions in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Joins%20%26%20Unions",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Joins & Unions",
+            "url": "https://medium.com/search?q=Joins%20%26%20Unions",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "optimizing_queries",
+        "name": "Optimizing Queries",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Optimizing Queries",
+            "url": "https://www.coursera.org/search?query=Optimizing%20Queries",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Optimizing Queries in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Optimizing%20Queries",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Optimizing Queries",
+            "url": "https://medium.com/search?q=Optimizing%20Queries",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "product_strategy",
+    "name": "Product Strategy",
+    "description": "Defining the roadmap and vision for a product.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "roadmap_planning",
+        "name": "Roadmap Planning",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Roadmap Planning",
+            "url": "https://www.coursera.org/search?query=Roadmap%20Planning",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Roadmap Planning in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Roadmap%20Planning",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Roadmap Planning",
+            "url": "https://medium.com/search?q=Roadmap%20Planning",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "kpi_definition",
+        "name": "KPI Definition",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to KPI Definition",
+            "url": "https://www.coursera.org/search?query=KPI%20Definition",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding KPI Definition in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=KPI%20Definition",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for KPI Definition",
+            "url": "https://medium.com/search?q=KPI%20Definition",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "agile_methodologies",
+    "name": "Agile Methodologies",
+    "description": "Iterative frameworks for managing projects (Scrum/Kanban).",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "scrum_framework",
+        "name": "Scrum Framework",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Scrum Framework",
+            "url": "https://www.coursera.org/search?query=Scrum%20Framework",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Scrum Framework in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Scrum%20Framework",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Scrum Framework",
+            "url": "https://medium.com/search?q=Scrum%20Framework",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "backlog_management",
+        "name": "Backlog Management",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Backlog Management",
+            "url": "https://www.coursera.org/search?query=Backlog%20Management",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Backlog Management in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Backlog%20Management",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Backlog Management",
+            "url": "https://medium.com/search?q=Backlog%20Management",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "process_safety",
+    "name": "Process Safety Management",
+    "description": "Frameworks for preventing catastrophic accidents in chemical plants.",
+    "dependsOn": [],
+    "subskills": [
+      {
+        "id": "hazop",
+        "name": "HAZOP Analysis",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to HAZOP Analysis",
+            "url": "https://www.coursera.org/search?query=HAZOP%20Analysis",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding HAZOP Analysis in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=HAZOP%20Analysis",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for HAZOP Analysis",
+            "url": "https://medium.com/search?q=HAZOP%20Analysis",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "risk_assessment",
+        "name": "Risk Assessment Matrices",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Risk Assessment Matrices",
+            "url": "https://www.coursera.org/search?query=Risk%20Assessment%20Matrices",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Risk Assessment Matrices in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Risk%20Assessment%20Matrices",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Risk Assessment Matrices",
+            "url": "https://medium.com/search?q=Risk%20Assessment%20Matrices",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "lopa",
+        "name": "Layers of Protection (LOPA)",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Layers of Protection (LOPA)",
+            "url": "https://www.coursera.org/search?query=Layers%20of%20Protection%20(LOPA)",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Layers of Protection (LOPA) in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Layers%20of%20Protection%20(LOPA)",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Layers of Protection (LOPA)",
+            "url": "https://medium.com/search?q=Layers%20of%20Protection%20(LOPA)",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "inherent_safety",
+        "name": "Inherently Safer Design",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Inherently Safer Design",
+            "url": "https://www.coursera.org/search?query=Inherently%20Safer%20Design",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Inherently Safer Design in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Inherently%20Safer%20Design",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Inherently Safer Design",
+            "url": "https://medium.com/search?q=Inherently%20Safer%20Design",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dispersion_modeling",
+    "name": "Dispersion Modeling",
+    "description": "Predicting the spread of chemical releases into the atmosphere.",
+    "dependsOn": [
+      "fluid_mechanics"
+    ],
+    "subskills": [
+      {
+        "id": "source_terms",
+        "name": "Source Term Calculations",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Source Term Calculations",
+            "url": "https://www.coursera.org/search?query=Source%20Term%20Calculations",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Source Term Calculations in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Source%20Term%20Calculations",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Source Term Calculations",
+            "url": "https://medium.com/search?q=Source%20Term%20Calculations",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "gaussian_plume",
+        "name": "Gaussian Plume Modeling",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Gaussian Plume Modeling",
+            "url": "https://www.coursera.org/search?query=Gaussian%20Plume%20Modeling",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Gaussian Plume Modeling in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Gaussian%20Plume%20Modeling",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Gaussian Plume Modeling",
+            "url": "https://medium.com/search?q=Gaussian%20Plume%20Modeling",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "heavy_gas",
+        "name": "Heavy Gas Dispersion",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Heavy Gas Dispersion",
+            "url": "https://www.coursera.org/search?query=Heavy%20Gas%20Dispersion",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Heavy Gas Dispersion in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Heavy%20Gas%20Dispersion",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Heavy Gas Dispersion",
+            "url": "https://medium.com/search?q=Heavy%20Gas%20Dispersion",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "aloha_sim",
+        "name": "ALOHA Software Basics",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to ALOHA Software Basics",
+            "url": "https://www.coursera.org/search?query=ALOHA%20Software%20Basics",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding ALOHA Software Basics in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=ALOHA%20Software%20Basics",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for ALOHA Software Basics",
+            "url": "https://medium.com/search?q=ALOHA%20Software%20Basics",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "safety_instrumented_systems",
+    "name": "Safety Instrumented Systems (SIS)",
+    "description": "Automated systems designed to take processes to a safe state.",
+    "dependsOn": [
+      "process_safety"
+    ],
+    "subskills": [
+      {
+        "id": "sis_architecture",
+        "name": "SIS Architecture",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to SIS Architecture",
+            "url": "https://www.coursera.org/search?query=SIS%20Architecture",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding SIS Architecture in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=SIS%20Architecture",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for SIS Architecture",
+            "url": "https://medium.com/search?q=SIS%20Architecture",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "sil_classification",
+        "name": "SIL Classification",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to SIL Classification",
+            "url": "https://www.coursera.org/search?query=SIL%20Classification",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding SIL Classification in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=SIL%20Classification",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for SIL Classification",
+            "url": "https://medium.com/search?q=SIL%20Classification",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "reliability_engineering",
+        "name": "Reliability Engineering Basics",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Reliability Engineering Basics",
+            "url": "https://www.coursera.org/search?query=Reliability%20Engineering%20Basics",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Reliability Engineering Basics in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Reliability%20Engineering%20Basics",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Reliability Engineering Basics",
+            "url": "https://medium.com/search?q=Reliability%20Engineering%20Basics",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "computational_biology",
+    "name": "Computational Biology",
+    "description": "Mathematical models to map out biological processes.",
+    "dependsOn": [
+      "bioinformatics"
+    ],
+    "subskills": [
+      {
+        "id": "molecular_dynamics",
+        "name": "Molecular Dynamics Sim",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Molecular Dynamics Sim",
+            "url": "https://www.coursera.org/search?query=Molecular%20Dynamics%20Sim",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Molecular Dynamics Sim in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Molecular%20Dynamics%20Sim",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Molecular Dynamics Sim",
+            "url": "https://medium.com/search?q=Molecular%20Dynamics%20Sim",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "network_analysis",
+        "name": "Biological Network Analysis",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Biological Network Analysis",
+            "url": "https://www.coursera.org/search?query=Biological%20Network%20Analysis",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Biological Network Analysis in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Biological%20Network%20Analysis",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Biological Network Analysis",
+            "url": "https://medium.com/search?q=Biological%20Network%20Analysis",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "systems_biology",
+        "name": "Systems Biology Modeling",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Systems Biology Modeling",
+            "url": "https://www.coursera.org/search?query=Systems%20Biology%20Modeling",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Systems Biology Modeling in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Systems%20Biology%20Modeling",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Systems Biology Modeling",
+            "url": "https://medium.com/search?q=Systems%20Biology%20Modeling",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "machine_learning_biology",
+    "name": "Machine Learning for Biology",
+    "description": "Applying AI/ML models specifically to molecular and patient data.",
+    "dependsOn": [
+      "python_for_engineers",
+      "statistics"
+    ],
+    "subskills": [
+      {
+        "id": "predictive_modeling",
+        "name": "Predictive Modeling in Health",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Predictive Modeling in Health",
+            "url": "https://www.coursera.org/search?query=Predictive%20Modeling%20in%20Health",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Predictive Modeling in Health in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Predictive%20Modeling%20in%20Health",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Predictive Modeling in Health",
+            "url": "https://medium.com/search?q=Predictive%20Modeling%20in%20Health",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "unsupervised_clustering",
+        "name": "Unsupervised Genome Clustering",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Unsupervised Genome Clustering",
+            "url": "https://www.coursera.org/search?query=Unsupervised%20Genome%20Clustering",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Unsupervised Genome Clustering in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Unsupervised%20Genome%20Clustering",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Unsupervised Genome Clustering",
+            "url": "https://medium.com/search?q=Unsupervised%20Genome%20Clustering",
+            "duration": "15 mins"
+          }
+        ]
+      },
+      {
+        "id": "deep_learning_bio",
+        "name": "Deep Learning for Bioinformatics",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Expert Guide to Deep Learning for Bioinformatics",
+            "url": "https://www.coursera.org/search?query=Deep%20Learning%20for%20Bioinformatics",
+            "duration": "4 hours"
+          },
+          {
+            "type": "video",
+            "title": "Understanding Deep Learning for Bioinformatics in 10 Minutes",
+            "url": "https://youtube.com/results?search_query=Deep%20Learning%20for%20Bioinformatics",
+            "duration": "10 mins"
+          },
+          {
+            "type": "article",
+            "title": "Industry Best Practices for Deep Learning for Bioinformatics",
+            "url": "https://medium.com/search?q=Deep%20Learning%20for%20Bioinformatics",
+            "duration": "15 mins"
+          }
+        ]
+      }
+    ]
+  }
+]

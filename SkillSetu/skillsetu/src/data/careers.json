@@ -1,0 +1,126 @@
+[
+  {
+    "id": "process_engineer",
+    "name": "Process Engineer",
+    "description": "Designs, operates, and optimizes chemical and biochemical processes.",
+    "difficulty": "Advanced",
+    "avgSalary": "$90,000",
+    "learningTime": "6 months",
+    "skills": [
+      "thermodynamics",
+      "fluid_mechanics",
+      "heat_transfer",
+      "mass_transfer",
+      "reaction_engineering",
+      "process_simulation",
+      "python_for_engineers"
+    ]
+  },
+  {
+    "id": "bioprocess_engineer",
+    "name": "Bioprocess Engineer",
+    "description": "Develops and scales up biological processes for manufacturing.",
+    "difficulty": "Advanced",
+    "avgSalary": "$95,000",
+    "learningTime": "8 months",
+    "skills": [
+      "thermodynamics",
+      "fluid_mechanics",
+      "mass_transfer",
+      "bioreactor_design",
+      "enzyme_kinetics",
+      "bioprocess_control",
+      "python_for_engineers"
+    ]
+  },
+  {
+    "id": "biotech_research_scientist",
+    "name": "Biotechnology Research Scientist",
+    "description": "Conducts research to develop new biotechnological products and metabolic pathways.",
+    "difficulty": "Advanced",
+    "avgSalary": "$105,000",
+    "learningTime": "12 months",
+    "skills": [
+      "enzyme_kinetics",
+      "metabolic_engineering",
+      "bioreactor_design",
+      "reaction_engineering",
+      "bioprocess_control",
+      "python_for_engineers"
+    ]
+  },
+  {
+    "id": "software_engineer",
+    "name": "Software Engineer",
+    "description": "Builds and maintains complex software systems and applications.",
+    "difficulty": "Intermediate",
+    "avgSalary": "$110,000",
+    "learningTime": "8 months",
+    "skills": [
+      "programming_fundamentals",
+      "web_development",
+      "databases",
+      "software_architecture",
+      "cloud_computing"
+    ]
+  },
+  {
+    "id": "data_analyst",
+    "name": "Data Analyst",
+    "description": "Interprets complex data to help businesses make informed decisions.",
+    "difficulty": "Beginner",
+    "avgSalary": "$75,000",
+    "learningTime": "4 months",
+    "skills": [
+      "data_visualization",
+      "statistics",
+      "sql_mastery",
+      "python_for_data"
+    ]
+  },
+  {
+    "id": "product_manager",
+    "name": "Product Manager",
+    "description": "Leads the strategy and development of products from inception to launch.",
+    "difficulty": "Intermediate",
+    "avgSalary": "$125,000",
+    "learningTime": "6 months",
+    "skills": [
+      "product_strategy",
+      "ux_fundamentals",
+      "agile_methodologies",
+      "market_analysis"
+    ]
+  },
+  {
+    "id": "chemical_safety_engineer",
+    "name": "Chemical Safety Engineer",
+    "description": "Identifies, analyzes, and mitigates risks in chemical processing facilities.",
+    "difficulty": "Advanced",
+    "avgSalary": "$98,000",
+    "learningTime": "7 months",
+    "skills": [
+      "fluid_mechanics",
+      "reaction_engineering",
+      "process_safety",
+      "dispersion_modeling",
+      "safety_instrumented_systems"
+    ]
+  },
+  {
+    "id": "bioinformatics_scientist",
+    "name": "Bioinformatics Scientist",
+    "description": "Leverages algorithms and ML to analyze biological datasets like genomes.",
+    "difficulty": "Advanced",
+    "avgSalary": "$115,000",
+    "learningTime": "10 months",
+    "skills": [
+      "python_for_engineers",
+      "statistics",
+      "bioinformatics",
+      "databases",
+      "computational_biology",
+      "machine_learning_biology"
+    ]
+  }
+]

@@ -1,0 +1,216 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Proceeding with Option A: Local SQLite setup for zero friction local dev
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Core User & Mastery tracking ─────────
+
+model User {
+  id              String           @id @default(cuid())
+  email           String           @unique
+  name            String?
+  passwordHash    String?
+  targetCareerId  String?
+  targetCareer    JobProfile?      @relation(fields: [targetCareerId], references: [id])
+  masteryStates   UserSkillState[]
+  attempts        TaskAttempt[]
+  resourceProgress UserResourceProgress[]
+  
+  // Streak tracking
+  currentStreak   Int              @default(0)
+  longestStreak   Int              @default(0)
+  lastActiveDate  DateTime?
+  
+  // Phase 5 Gamification
+  activities      DailyActivity[]
+  badges          Badge[]
+  
+  // Phase 6 Preferences
+  weeklyGoal      Int              @default(3)
+  
+  // Phase 7 Proof Vault
+  proofs          Proof[]
+}
+
+// ─── Learning Nodes ───────────────────────
+
+model JobProfile {
+  id           String            @id
+  name         String
+  description  String
+  difficulty   String
+  avgSalary    String
+  learningTime String
+  users        User[]
+  skills       JobProfileSkill[]
+}
+
+model SkillNode {
+  id           String            @id
+  name         String
+  description  String
+  jobProfiles  JobProfileSkill[]
+  subskills    SubskillNode[]
+  dependencies SkillDependency[] @relation("DependentSkills") // what this depends ON
+  dependentOn  SkillDependency[] @relation("RequiredForSkills") // what depends on THIS
+  questions    Task[]
+  proofs       Proof[]
+  internships  Internship[]
+}
+
+model JobProfileSkill {
+  jobProfileId String
+  skillId      String
+  jobProfile   JobProfile @relation(fields: [jobProfileId], references: [id])
+  skill        SkillNode  @relation(fields: [skillId], references: [id])
+  
+  @@id([jobProfileId, skillId])
+}
+
+model SkillDependency {
+  skillId     String // The skill that has a dependency
+  dependsOnId String // The prerequisite skill
+  
+  skill       SkillNode @relation("DependentSkills", fields: [skillId], references: [id])
+  dependsOn   SkillNode @relation("RequiredForSkills", fields: [dependsOnId], references: [id])
+  
+  @@id([skillId, dependsOnId])
+}
+
+model SubskillNode {
+  id            String           @id
+  skillId       String
+  name          String
+  skill         SkillNode        @relation(fields: [skillId], references: [id])
+  resources     Resource[]
+  questions     Task[]
+  masteryStates UserSkillState[]
+}
+
+// ─── Resources & Practice ─────────────────
+
+model Resource {
+  id         String       @id @default(cuid())
+  subskillId String
+  subskill   SubskillNode @relation(fields: [subskillId], references: [id])
+  type       String
+  title      String
+  url        String
+  duration   String?
+  difficulty Int          @default(1)
+  rating     Float?
+  userProgress UserResourceProgress[]
+}
+
+model UserResourceProgress {
+  id         String   @id @default(cuid())
+  userId     String
+  resourceId String
+  user       User     @relation(fields: [userId], references: [id])
+  resource   Resource @relation(fields: [resourceId], references: [id])
+  isCompleted Boolean @default(false)
+  liked       Boolean?
+  lastViewed  DateTime @default(now())
+  
+  @@unique([userId, resourceId])
+}
+
+model Task {
+  id          String        @id @default(cuid())
+  skillId     String
+  subskillId  String?
+  skill       SkillNode     @relation(fields: [skillId], references: [id])
+  subskill    SubskillNode? @relation(fields: [subskillId], references: [id])
+  question    String
+  options     String        // Storing as JSON string
+  answer      String
+  explanation String
+  difficulty  Int
+  attempts    TaskAttempt[]
+}
+
+// ─── Dynamic State ────────────────────────
+
+model UserSkillState {
+  id              String       @id @default(cuid())
+  userId          String
+  subskillId      String
+  user            User         @relation(fields: [userId], references: [id])
+  subskill        SubskillNode @relation(fields: [subskillId], references: [id])
+  score           Float
+  lastPracticedAt DateTime
+  attemptCount    Int
+  correctCount    Int
+  streak          Int
+  
+  @@unique([userId, subskillId])
+}
+
+model TaskAttempt {
+  id          String       @id @default(cuid())
+  userId      String
+  taskId      String
+  user        User         @relation(fields: [userId], references: [id])
+  task        Task         @relation(fields: [taskId], references: [id])
+  answer      String
+  isCorrect   Boolean
+  timestamp   DateTime     @default(now())
+  timeTakenMs Int?
+  masteryGain Float?
+}
+
+// ─── Phase 5: Gamification ────────────────
+
+model DailyActivity {
+  id                String   @id @default(cuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id])
+  date              DateTime // Set to start of day
+  questionsAnswered Int      @default(0)
+  masteryGained     Float    @default(0)
+  goalMet           Boolean  @default(false)
+  
+  @@unique([userId, date])
+}
+
+model Badge {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  name        String
+  description String
+  type        String   // e.g., "TIME_BASED", "MASTERY", "COMPLETION"
+  earnedAt    DateTime @default(now())
+}
+
+// ─── Phase 7: Proof Vault & Opportunities ───
+
+model Proof {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  skillId     String?
+  skill       SkillNode? @relation(fields: [skillId], references: [id])
+  type        String   // e.g., "MASTERY", "PROJECT", "EXTERNAL"
+  title       String
+  description String?
+  metadata    String?  // JSON string: { score: 85, badgeId: "..." }
+  fileUrl     String?
+  earnedAt    DateTime @default(now())
+}
+
+model Internship {
+  id             String      @id @default(cuid())
+  company        String
+  title          String
+  description    String
+  location       String
+  stipend        String?
+  requiredSkills SkillNode[]
+  postedAt       DateTime    @default(now())
+}
