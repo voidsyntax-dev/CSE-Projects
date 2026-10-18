@@ -122,7 +122,7 @@ SkillSetu is currently in a highly advanced state with all core PRD requirements
 Modern, high-performance tools powering the platform:
 
 - **Framework**: [Next.js](https://nextjs.org/) (React 19)
-- **AI**: [Google Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/)
+- **AI**: [Insert your API key in the .env file]
 - **Visuals**: [D3.js](https://d3js.org/) & [Recharts](https://recharts.org/)
 - **Database**: [Prisma](https://www.prisma.io/) & [PostgreSQL](https://www.postgresql.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) & [Framer Motion](https://www.framer.com/motion/)
